@@ -109,11 +109,25 @@ h2 {
 
 .cards {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
 }
+
+.card {
+    width: 160px;
+    text-align: center;
+}
+
+.card .text {
+    margin-top: 5px;
+}
+
 
 .text,
 .header li {
     font-size: 18px;
+    font-weight: 300;
 }
 
 .call-to-action .text {
@@ -150,8 +164,10 @@ h2 {
 }
 
 .sign-up {
-    padding: 4px 16px;
+    padding: 6px 28px;
     border-radius: 5px;
+    font-weight: 500;
+    color: white;
 }
 
 .call-to-action .sign-up {
