@@ -26,8 +26,13 @@ body {
 }
 
 .hero p,
-.header li {
+.header a {
     color: #e5e7eb;
+    text-decoration: none;
+}
+
+.header ul{
+    list-style: none;
 }
 
 .hero h1 {
