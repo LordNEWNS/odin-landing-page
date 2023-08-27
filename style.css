@@ -39,12 +39,14 @@ h2 {
     display: flex;
     justify-content: space-between;
     margin: 0;
-    align-items: center;
+    
 }
 
 .top-bar,
 .hero {
     padding: 8px 16px;
+    max-width: 1200px;
+    width: 100%;
 }
 
 .hero {
@@ -79,6 +81,7 @@ h2 {
     padding-bottom: 80px;
     height: 330px;
     flex: 0 0 auto;
+    align-items: center;
 }
 
 .footer {
@@ -183,6 +186,17 @@ h2 {
 
 .quote {
     background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px;
+}
+
+.quote .text {
+    width: 760px;
+    flex: 0 0 auto;
+    display: flex;
+    flex-direction: column;
 }
 
 .quote p {
@@ -190,5 +204,14 @@ h2 {
     font-weight: 300;
     font-style: italic;
     color: #1f2937;
+    margin: 0;
     
+}
+
+.quote .thor {
+    font-size: 24px;
+    align-self: flex-end;
+    margin-top: 0;
+    font-style: normal;
+    font-weight: bold;
 }
