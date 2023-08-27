@@ -65,7 +65,8 @@ h2 {
 }
 
 .hero p,
-.header a {
+.header a,
+.sign-up {
     color: #e5e7eb;
     text-decoration: none;
 }
