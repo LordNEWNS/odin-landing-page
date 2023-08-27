@@ -9,6 +9,22 @@
     background-color: #3882f6;
 }
 
+.sign-up {
+    padding: 4px 16px;
+    border-radius: 5px;
+}
+
+.call-to-action .sign-up {
+    border: solid white;
+    border-width: 1px;
+}
+
+.info h1 {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1f2937;
+}
+
 .quote {
     background-color: #e5e7eb;
 }
