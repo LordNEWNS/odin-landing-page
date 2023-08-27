@@ -2,7 +2,6 @@ body {
     font-family: 'Roboto', sans-serif;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     height: 100vh;
     margin: 0;
 }
@@ -44,8 +43,17 @@ h2 {
     color: #e5e7eb;
 }
 
+.header,
+.footer {
+    flex-grow: 0;
+}
+
 .body {
     margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 1 1 auto;
 }
 
 .hero {
